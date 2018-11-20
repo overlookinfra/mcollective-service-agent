@@ -1,5 +1,9 @@
 # Service Agent
 
+> This fork is only updated for security issues and bugs with its use in [Puppet Enterprise](https://puppet.com/products/puppet-enterprise).
+> Please file bugs with [PE support](https://support.puppet.com).
+> For security issues, see [Puppet's product security policy](https://puppet.com/docs/vulnerability-submission-process).
+
 The service agent that lets you stop, start, restart and query the statuses of services on your operating system.
 
 The service agent does not do any management of services itself. Instead it
@@ -107,10 +111,3 @@ you can configure it in the config file using:
 ```
 plugin.service.provider = puppet
 ```
-
-## Maintenance
-
-Maintainers: Alessandro Parisi <alessandro@puppet.com>, Michael Smith
-<michael.smith@puppet.com>, Michal Ruzicka <michal.ruzicka@puppet.com>.
-
-Tickets: File bug tickets at https://tickets.puppet.com/browse/MCOP.
